@@ -1,0 +1,4 @@
+interface:
+  display_name: "Logic Apps VS Code Startup Analyzer"
+  short_description: "Compare Logic Apps startup evidence across VS Code machines"
+  brand_color: "#0078D4"

@@ -1,0 +1,374 @@
+{
+  "label": "customer-cold-vscode-1.140",
+  "source": "customer-cold-vscode-startup-perf.txt",
+  "system": {
+    "Code": "1.140.0 (07f806f999227108933c2e30515b26eecc1fda74)",
+    "OS": "win32(10.0.26300)",
+    "CPUs": "Intel(R) Core(TM) Ultra 7 155H(22 x 2995)",
+    "Memory(System)": "63.32 GB(47.12GB free)",
+    "Memory(Process)": "526.61 MB working set(502.64MB private, 0.96MB shared)",
+    "Initial Startup": "true",
+    "Empty Workspace": "false"
+  },
+  "core": {
+    "register extensions & spawn extension host": 1088,
+    "overall workbench load": 647,
+    "workbench ready": 1939,
+    "renderer ready": 1357,
+    "extensions registered": 2879
+  },
+  "extensions": [
+    {
+      "extension": "Azurite.azurite",
+      "eager": false,
+      "load_code_ms": 27071,
+      "call_activate_ms": 2,
+      "finish_activate_ms": 0,
+      "event": "onLanguage:csharp",
+      "by": "ms-azuretools.vscode-azurelogicapps"
+    },
+    {
+      "extension": "ms-dotnettools.csharp",
+      "eager": false,
+      "load_code_ms": 3717,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 223,
+      "event": "onLanguage:csharp",
+      "by": "ms-azuretools.vscode-azurelogicapps"
+    },
+    {
+      "extension": "ms-azuretools.vscode-azureresourcegroups",
+      "eager": false,
+      "load_code_ms": 3239,
+      "call_activate_ms": 16,
+      "finish_activate_ms": 20,
+      "event": "onLanguage:csharp",
+      "by": "ms-azuretools.vscode-azurelogicapps"
+    },
+    {
+      "extension": "ms-azuretools.vscode-azurefunctions",
+      "eager": false,
+      "load_code_ms": 3049,
+      "call_activate_ms": 21,
+      "finish_activate_ms": 28,
+      "event": "onLanguage:csharp",
+      "by": "ms-azuretools.vscode-azurelogicapps"
+    },
+    {
+      "extension": "ms-azuretools.logicapps-migration-agent",
+      "eager": false,
+      "load_code_ms": 2563,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 45,
+      "event": "onStartupFinished",
+      "by": "ms-azuretools.logicapps-migration-agent"
+    },
+    {
+      "extension": "ms-vscode-remote.remote-containers",
+      "eager": false,
+      "load_code_ms": 1205,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 175,
+      "event": "onStartupFinished",
+      "by": "ms-vscode-remote.remote-containers"
+    },
+    {
+      "extension": "ms-windows-ai-studio.windows-ai-studio",
+      "eager": false,
+      "load_code_ms": 953,
+      "call_activate_ms": 18,
+      "finish_activate_ms": 3081,
+      "event": "onLanguageModelChatProvider:aitk-foundry",
+      "by": "ms-windows-ai-studio.windows-ai-studio"
+    },
+    {
+      "extension": "ms-azuretools.vscode-azurelogicapps",
+      "eager": false,
+      "load_code_ms": 781,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 4212,
+      "event": "onLanguage:csharp",
+      "by": "ms-azuretools.vscode-azurelogicapps"
+    },
+    {
+      "extension": "GitHub.copilot-chat",
+      "eager": false,
+      "load_code_ms": 691,
+      "call_activate_ms": 38,
+      "finish_activate_ms": 9694,
+      "event": "onChatParticipant:github.copilot.editsAgent",
+      "by": "GitHub.copilot-chat"
+    },
+    {
+      "extension": "ms-dotnettools.csdevkit",
+      "eager": false,
+      "load_code_ms": 333,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 3633,
+      "event": "onLanguage:csharp",
+      "by": "ms-azuretools.vscode-azurelogicapps"
+    },
+    {
+      "extension": "vscode.markdown-language-features",
+      "eager": false,
+      "load_code_ms": 227,
+      "call_activate_ms": 7,
+      "finish_activate_ms": 156,
+      "event": "onLanguage:markdown",
+      "by": "vscode.markdown-language-features"
+    },
+    {
+      "extension": "ms-dotnettools.vscode-dotnet-runtime",
+      "eager": false,
+      "load_code_ms": 139,
+      "call_activate_ms": 14,
+      "finish_activate_ms": 2,
+      "event": "onLanguage:csharp",
+      "by": "ms-azuretools.vscode-azurelogicapps"
+    },
+    {
+      "extension": "humao.rest-client",
+      "eager": false,
+      "load_code_ms": 86,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 28,
+      "event": "onLanguage:markdown",
+      "by": "humao.rest-client"
+    },
+    {
+      "extension": "vscode.json-language-features",
+      "eager": false,
+      "load_code_ms": 66,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 1825,
+      "event": "onLanguage:json",
+      "by": "vscode.json-language-features"
+    },
+    {
+      "extension": "vscode.typescript-language-features",
+      "eager": false,
+      "load_code_ms": 55,
+      "call_activate_ms": 7,
+      "finish_activate_ms": 5,
+      "event": "onLanguage:jsonc",
+      "by": "vscode.typescript-language-features"
+    },
+    {
+      "extension": "vscode.git",
+      "eager": true,
+      "load_code_ms": 45,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 1483,
+      "event": "*",
+      "by": "vscode.git"
+    },
+    {
+      "extension": "vscode.microsoft-authentication",
+      "eager": false,
+      "load_code_ms": 44,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 3065,
+      "event": "onAuthenticationRequest:microsoft",
+      "by": "vscode.microsoft-authentication"
+    },
+    {
+      "extension": "vscode.terminal-suggest",
+      "eager": false,
+      "load_code_ms": 41,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 63,
+      "event": "onTerminalShellIntegration:*",
+      "by": "vscode.terminal-suggest"
+    },
+    {
+      "extension": "vscode.github-authentication",
+      "eager": false,
+      "load_code_ms": 33,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 0,
+      "event": "onAuthenticationRequest:github",
+      "by": "vscode.github-authentication"
+    },
+    {
+      "extension": "ms-azuretools.vscode-azure-mcp-server",
+      "eager": false,
+      "load_code_ms": 32,
+      "call_activate_ms": 2,
+      "finish_activate_ms": 0,
+      "event": "onLanguageModelChatProvider:aitk-foundry",
+      "by": "ms-windows-ai-studio.windows-ai-studio"
+    },
+    {
+      "extension": "vscode.emmet",
+      "eager": false,
+      "load_code_ms": 27,
+      "call_activate_ms": 5,
+      "finish_activate_ms": 0,
+      "event": "onLanguage",
+      "by": "vscode.emmet"
+    },
+    {
+      "extension": "vscode.markdown-math",
+      "eager": false,
+      "load_code_ms": 27,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 0,
+      "event": "api",
+      "by": "vscode.markdown-language-features"
+    },
+    {
+      "extension": "vscode.npm",
+      "eager": false,
+      "load_code_ms": 20,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 3321,
+      "event": "onLanguage:json",
+      "by": "vscode.npm"
+    },
+    {
+      "extension": "vscode.extension-editing",
+      "eager": false,
+      "load_code_ms": 14,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 0,
+      "event": "onLanguage:json",
+      "by": "vscode.extension-editing"
+    },
+    {
+      "extension": "vscode.merge-conflict",
+      "eager": false,
+      "load_code_ms": 14,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 1,
+      "event": "onStartupFinished",
+      "by": "vscode.merge-conflict"
+    },
+    {
+      "extension": "vscode.github",
+      "eager": true,
+      "load_code_ms": 12,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 0,
+      "event": "*",
+      "by": "vscode.github"
+    },
+    {
+      "extension": "vscode.configuration-editing",
+      "eager": false,
+      "load_code_ms": 9,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 0,
+      "event": "onLanguage:json",
+      "by": "vscode.configuration-editing"
+    },
+    {
+      "extension": "vscode.git-base",
+      "eager": true,
+      "load_code_ms": 8,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 0,
+      "event": "*",
+      "by": "vscode.git"
+    },
+    {
+      "extension": "vscode.debug-auto-launch",
+      "eager": false,
+      "load_code_ms": 7,
+      "call_activate_ms": 0,
+      "finish_activate_ms": 0,
+      "event": "onStartupFinished",
+      "by": "vscode.debug-auto-launch"
+    },
+    {
+      "extension": "vscode.mermaid-markdown-features",
+      "eager": false,
+      "load_code_ms": 7,
+      "call_activate_ms": 1,
+      "finish_activate_ms": 0,
+      "event": "api",
+      "by": "vscode.markdown-language-features"
+    }
+  ],
+  "raw_ext_host_loads": [
+    {
+      "extension": "Azurite.azurite",
+      "duration_ms": 27071.0
+    },
+    {
+      "extension": "ms-dotnettools.csharp",
+      "duration_ms": 3717.0
+    },
+    {
+      "extension": "ms-azuretools.vscode-azureresourcegroups",
+      "duration_ms": 3238.0
+    },
+    {
+      "extension": "ms-azuretools.vscode-azurefunctions",
+      "duration_ms": 3049.0
+    },
+    {
+      "extension": "ms-windows-ai-studio.windows-ai-studio",
+      "duration_ms": 953.0
+    },
+    {
+      "extension": "GitHub.copilot-chat",
+      "duration_ms": 690.0
+    },
+    {
+      "extension": "ms-dotnettools.csdevkit",
+      "duration_ms": 333.0
+    },
+    {
+      "extension": "ms-dotnettools.vscode-dotnet-runtime",
+      "duration_ms": 139.0
+    },
+    {
+      "extension": "vscode.json-language-features",
+      "duration_ms": 66.0
+    },
+    {
+      "extension": "vscode.git",
+      "duration_ms": 45.0
+    },
+    {
+      "extension": "vscode.microsoft-authentication",
+      "duration_ms": 44.0
+    },
+    {
+      "extension": "vscode.terminal-suggest",
+      "duration_ms": 40.0
+    },
+    {
+      "extension": "vscode.github-authentication",
+      "duration_ms": 33.0
+    },
+    {
+      "extension": "ms-azuretools.vscode-azure-mcp-server",
+      "duration_ms": 32.0
+    },
+    {
+      "extension": "vscode.emmet",
+      "duration_ms": 26.0
+    },
+    {
+      "extension": "vscode.npm",
+      "duration_ms": 20.0
+    },
+    {
+      "extension": "vscode.extension-editing",
+      "duration_ms": 13.0
+    },
+    {
+      "extension": "vscode.github",
+      "duration_ms": 12.0
+    },
+    {
+      "extension": "vscode.configuration-editing",
+      "duration_ms": 9.0
+    },
+    {
+      "extension": "vscode.git-base",
+      "duration_ms": 8.0
+    }
+  ]
+}
